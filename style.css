@@ -1,0 +1,146 @@
+/* Ganti font dan warna latar belakang */
+body {
+    font-family: Comic Sans MS, cursive;
+    background-color: #333;
+	color: #fff;
+}
+
+/* Atur tampilan header */
+header {
+    background-image: url('bloodborne.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+	border-radius: 10px;
+	font-family: Denk One, sans-serif;
+	src: url(DenkOne-Regular.ttf);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Atur tampilan navigasi */
+nav {
+    background-color: #666;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+	border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+}
+
+nav ul li a:active {
+    background-color: #f4f4f4;
+	color: #000
+}
+
+
+/* Atur tampilan bagian profile */
+#about {
+    padding: 20px;
+}
+
+img {
+	border-radius: 10px;
+}
+
+/* Atur tampilan bagian skill */
+#skill {
+    padding: 20px;
+}
+
+.skill-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    width: 200px;
+    padding: 20px;
+    background-color: #f4f4f4;
+	color: #000;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+/* Atur tampilan bagian kontak */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+	color: #000;
+	border-radius: 10px;
+}
+
+#contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact ul li a {
+    text-decoration: none;
+}
+
+/* Atur tampilan footer */
+footer {
+    background-color: #666;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+	border-radius: 10px;
+}
